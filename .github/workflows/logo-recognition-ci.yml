@@ -6,6 +6,7 @@ jobs:
   build-linux:
     name: linux-build
     runs-on: ubuntu-latest    
+    container: python:3.7
     strategy:
       fail-fast: true
         
