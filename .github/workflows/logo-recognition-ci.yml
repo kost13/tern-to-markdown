@@ -1,0 +1,21 @@
+
+name: tern-to-markdown-ci
+
+on: [push, pull_request]
+jobs:
+  build-linux:
+    name: linux-build
+    runs-on: ubuntu-latest    
+    strategy:
+      fail-fast: true
+        
+    steps:
+      - uses: actions/checkout@v1
+      - name: install
+        run: |          
+          make init
+      - name: tests
+        run: |          
+          make test
+        
+      
