@@ -1,4 +1,6 @@
 # tern-to-markdown
+![GitHub Actions](https://github.com/kost13/tern-to-markdown/workflows/tern-to-markdown-ci/badge.svg)
+
 Convert [Tern](https://github.com/tern-tools/tern) tool report to markdown.
 
 ## Usage
