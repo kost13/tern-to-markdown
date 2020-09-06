@@ -33,13 +33,14 @@ def generate_output(
             data = yaml.safe_load(fstream)
         except yaml.YAMLError as exc:
             _LOG.critical(exc)
-            return
+            return False
 
     root = data['image']
     image = root['name']
     _LOG.debug('Generating report for image {}.'.format(image))
     packages_info = extract_packages_copyright(root['layers'])
     generate_markdown(target_file, image, packages_info)
+    return True
 
 
 def extract_packages_copyright(layers: dict) -> List[dict]:

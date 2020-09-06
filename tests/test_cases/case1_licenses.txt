@@ -1,0 +1,81 @@
+LGPL-2.1+
+public-domain-md5
+LGPL-2+
+GPLv2+
+ZLIB
+LGPL-2.1
+HSIEH-BSD
+LGPL-2.1+ or BSD-3-clause
+Expat
+GPL-2+ or Artistic
+GPL-1+ or Artistic or Artistic-dist
+BSD-2-clause
+none
+S2P
+LGPL-3+ or GPL-2+
+TinySCHEME
+HSIEH-DERIVATIVE
+GPLv3+
+Artistic
+Artistic or GPL-1+ or Artistic-dist
+BSD-3-clause and GPL-2
+GPL-2
+GPL-1+ or Artistic, and Unicode
+BSD-3-clause
+GPL-1+ or Artistic, and BSD-4-clause-POWERDOG
+permissive-nowarranty
+same-as-rest-of-p11kit
+GPL-3+-WITH-BISON-EXCEPTION
+GPL-3+
+BSD-3-clause-with-weird-numbering
+SDBM-PUBLIC-DOMAIN
+TEXT-TABS
+other
+MIT
+PD-debian
+BSD-3-Clause
+Autoconf
+GPL-1+ or Artistic
+GPL-1+ or Artistic, and BSD-3-clause-GENERIC
+BSD-3-clause-GENERIC
+Public domain.
+REGCOMP
+BSD-4-clause
+GPL-1+ or Artistic, and Expat
+PD
+CC0-1.0
+public-domain-s-s-d
+BSD-variant
+RRA-KEEP-THIS-NOTICE
+config-h
+g10-permissive
+RFC-Reference
+GPL-3+ or BSD-3-clause
+probably-PD
+ISC
+DONT-CHANGE-THE-GPL
+permissive
+public-domain
+BZIP
+GPL-1+
+Unicode
+noderivs
+zlib
+REGCOMP, and GPL-1+ or Artistic
+BSD-4-clause-POWERDOG
+LGPL-3+
+LGPLv3+_or_GPLv2+
+GPL-2+ with Autoconf exception
+GAP
+GPL-2+
+GPL-2+ with distribution exception
+GPL-3+ or GFDL-1.2+
+FreeSoftware
+GFDL-1.2+
+permissive-like-automake-output
+LGPL
+Expat or GPL-1+ or Artistic
+Zlib
+Artistic-dist
+permissive-fsf
+Artistic-2

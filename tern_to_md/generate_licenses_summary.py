@@ -34,13 +34,14 @@ def generate_summary(
             data = yaml.safe_load(fstream)
         except yaml.YAMLError as exc:
             _LOG.critical(exc)
-            return
+            return False
 
     root = data['image']
     image = root['name']
     _LOG.debug('Generating report for image {}.'.format(image))
     licenses = extract_licenses_list(root['layers'])
     generate_markdown(target_file, image, licenses, as_list)
+    return True
 
 
 def extract_licenses_list(layers: dict) -> Set[str]:
